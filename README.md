@@ -23,7 +23,39 @@ O projeto é dividido em duas partes principais: o frontend e o backend.
 
 - **Frontend**: Localizado na pasta `/client`, contém os componentes React que compõem a interface do usuário. Ele se comunica com o servidor backend por meio das chamadas à API GraphQL.
 
-- **Backend**: Localizado na pasta raiz do projeto, é onde o servidor Node.js é configurado. Ele contém o esquema GraphQL, define as operações CRUD e se conecta ao banco de dados (ainda não implementado no exemplo).
+- **Backend**: Localizado na pasta `/backend`, é onde o servidor Node.js é configurado. Ele contém o esquema GraphQL, define as operações CRUD e se conecta ao banco de dados (ainda não implementado no exemplo).
 
-## Configuração e Execução
+Claro, aqui está o complemento para a seção "Estrutura Inicial" do README:
+
+## Estrutura Inicial
+
+Para começar o projeto, siga as seguintes etapas:
+
+1. Crie uma pasta chamada `frutas`.
+
+2. Dentro da pasta `frutas`, crie uma pasta chamada `backend`. Agora, a estrutura de pastas ficará assim:
+
+   ```
+   - frutas
+      - backend
+   ```
+
+3. Abra um terminal de comandos e navegue até a pasta `frutas/backend`.
+
+4. Execute os comandos a seguir para iniciar o servidor backend:
+
+   ```
+   # Iniciar um novo projeto Node.js
+   npm init -y
+
+   # Instalar as dependências necessárias
+   npm i graphql apollo-server mongoose dotenv
+   ```
+
+Isso irá configurar a estrutura inicial do projeto, incluindo uma pasta `frutas` contendo a pasta `backend`, onde o servidor backend será desenvolvido. As dependências necessárias também serão instaladas para permitir a criação da API GraphQL e a interação com o banco de dados.
+
+- graphql: Montar shemas e executar queries GraphQL
+- apollo-server: Montar servidor GraphQL
+- mongoose: Modelar dados do banco e conectar ao banco MongoDB
+- dotenv: Configurar variáveis de ambiente para MongoDB
 
