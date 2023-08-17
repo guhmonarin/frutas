@@ -4,7 +4,7 @@ O Website de Gerenciamento de Dados de Frutas é um projeto que visa criar um si
 
 ## Funcionalidades Principais
 
-- Listagem de frutas com informações como nome e cor.
+- Listagem de frutas com informações.
 - Adição de novas frutas ao sistema.
 - Atualização de informações de frutas existentes.
 - Remoção de frutas do sistema.
@@ -21,13 +21,13 @@ O Website de Gerenciamento de Dados de Frutas é um projeto que visa criar um si
 
 O projeto é dividido em duas partes principais: o frontend e o backend.
 
-- **Frontend**: Localizado na pasta `/client`, contém os componentes React que compõem a interface do usuário. Ele se comunica com o servidor backend por meio das chamadas à API GraphQL.
+- **Frontend**: Localizado na pasta `/frontend`, contém os componentes React que compõem a interface do usuário. Ele se comunica com o servidor backend por meio das chamadas à API GraphQL.
 
 - **Backend**: Localizado na pasta `/backend`, é onde o servidor Node.js é configurado. Ele contém o esquema GraphQL, define as operações CRUD e se conecta ao banco de dados (ainda não implementado no exemplo).
 
 Claro, aqui está o complemento para a seção "Estrutura Inicial" do README:
 
-## Estrutura Inicial
+## Estrutura Inicial do Backend
 
 Para começar o projeto, siga as seguintes etapas:
 
@@ -59,3 +59,23 @@ Isso irá configurar a estrutura inicial do projeto, incluindo uma pasta `frutas
 - mongoose: Modelar dados do banco e conectar ao banco MongoDB
 - dotenv: Configurar variáveis de ambiente para MongoDB
 
+## Estrutura Inicial do Frontend
+
+1. Dentro da pasta `frutas`, crie uma pasta chamada `frontend`. Agora, a estrutura de pastas ficará assim:
+
+   ```
+   - frutas
+      - backend
+      - frontend
+   ```
+
+2. Abra um terminal de comandos e navegue até a pasta `frutas/frontend`.
+
+3. Execute os comandos a seguir para inicializar um novo projeto React (certifique-se de ter o Node.js instalado) :
+
+   ```
+   # Iniciar um novo projeto
+   npx create-react-app .
+   ```
+
+Isso irá criar uma nova aplicação React no diretório atual (frontend) com a estrutura de pastas e arquivos necessários.
