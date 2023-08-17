@@ -78,4 +78,13 @@ Isso irá configurar a estrutura inicial do projeto, incluindo uma pasta `frutas
    npx create-react-app .
    ```
 
+   ```
+   # Instalar o pacote @apollo/client
+   npm install @apollo/client
+   ```
+   
+   ```
+   # Instalar o react-router-dom
+   npm install react-router-dom
+   ```
 Isso irá criar uma nova aplicação React no diretório atual (frontend) com a estrutura de pastas e arquivos necessários.
